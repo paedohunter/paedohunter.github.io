@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="main.js"></script>
+
 	<title>title</title>
 </head>
 <body>
+	<h3>Welcome to my keepnet</h3>
+
+	<h4>Logging info</h4>
+
+	<div id="ip"></div>
+	<br>
+	<div id="location"></div>
 
 </body>
-
-<script type="text/javascript">
-	$.getJSON("https://api.ipify.org/?format=json", function(e) {
-    	console.log(e.ip);
-	});
-</script>
 
 </html>
