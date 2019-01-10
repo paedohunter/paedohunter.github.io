@@ -10,10 +10,10 @@ body {
 
 @media only screen and (max-width: 600px) {
     body {
-        font-size: 48px;
+        font-size: 38px;
     }
 
     .info {
-        font-size: 40px;
+        font-size: 30px;
     }
 }
